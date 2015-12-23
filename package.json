@@ -1,7 +1,7 @@
 {
   "name": "alexa-traffic-rank",
   "version": "1.0.0",
-  "description": "Alexa Web Data Module helps you to grab site data from alexa.com. you can store this data in your data and collect your own historical alexa rank data for free.",
+  "description": "Alexa traffic rank this is NPM Module, it will helps you to grab site data from alexa.com. you can store this data in your data and collect your own historical alexa rank data for free. for this you do need any api key or any thing else.",
   "main": "index.js",
   "dependencies" : {
     "request"    : "2.67.0",

@@ -1,6 +1,5 @@
 var request = require('request'),
-    cheerio = require('cheerio'),
-    async = require('async');
+    cheerio = require('cheerio');
 
 function requestp(rankData, url) {
     return new Promise(function (resolve, reject) {
@@ -45,9 +44,9 @@ function getAlexaRankData(siteUrl, callback) {
     var url = "http://www.alexa.com/siteinfo/"+siteUrl;
 
     requestp(rankData, url).then(function(data) {
-        callback(data);
+        callback(null, data);
     }, function(error){
-        callback(error);
+        callback(error, null);
     })
 
 }
