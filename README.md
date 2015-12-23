@@ -2,7 +2,11 @@
 
 Alexa traffic rank this is NPM Module, it will helps you to grab site data from alexa.com. you can store this data in your data and collect your own historical alexa rank data for free. for this you do need any api key or any thing else.
 
-##using this node module you can get
+to install this module
+
+<pre>npm install alexa-traffic-rank</pre>
+
+#using this node module you can get
 <ul>
 	<li>Global Rank</li>
 	<li>Country Rank with Country Name</li>
@@ -12,9 +16,9 @@ Alexa traffic rank this is NPM Module, it will helps you to grab site data from 
 </ul>
 
 
-##Example: 
+#Example:
 <pre>
-var alexaData = require('./index');
+var alexaData = require('alexa-traffic-rank');
 alexaData.AlexaWebData("panduboys.com", function(error, result) {
     console.log(result);
 })
