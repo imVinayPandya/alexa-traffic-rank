@@ -6,6 +6,7 @@ to install this module
 
 <pre>npm install alexa-traffic-rank</pre>
 
+
 #using this node module you can get
 <ul>
 	<li>Global Rank</li>
@@ -15,6 +16,9 @@ to install this module
 	<li>Daily Time on Site</li>
 </ul>
 
+#Usecase of this module:
+Q: Where you can use this plugin?<br>
+Ans: Alexa.com provide free data but it is limited, alexa provides only global rank graph which is 6 month old. using this module daily once you can grab global rank and country rank and other data, you can store this whole data as historycal data in your database. i will publish a blog post about this trick, you can learn from here <a href='www.panduboys.com'>www.panduboys.com</a>.
 
 #Example:
 <pre>
