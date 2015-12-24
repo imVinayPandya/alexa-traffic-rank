@@ -18,7 +18,7 @@ to install this module
 
 #Usecase of this module:
 Q: Where you can use this plugin?<br>
-Ans: Alexa.com provide free data but it is limited, alexa provides only global rank graph which is 6 month old. using this module daily once you can grab global rank and country rank and other data, you can store this whole data as historycal data in your database. Here is blog post about this trick, you can learn from here how to use this module <a href='https://www.panduboys.com/tutorials/alexa-traffic-rank-track-daily-with-node-js-mongodb/'>www.panduboys.com</a>.
+Ans: Alexa.com provide free data but it is limited, alexa provides only global rank graph which is 6 month old. using this module daily once you can grab global rank and country rank and other data, you can store this whole data as historycal data in your database. Here is blog post about this trick, you can learn from here how to use this module <a href='https://www.panduboys.com/tutorials/alexa-traffic-rank-track-daily-with-node-js-mongodb/'>Alexa Traffic Rank Track Daily with Node js + MongoDB</a>.
 
 #Example:
 <pre>
