@@ -4,6 +4,9 @@ var request = require('request'),
 function requestp(rankData, url) {
     return new Promise(function (resolve, reject) {
         request(url, function (error, response, html) {
+            if (response.statusCode >= 400){
+                reject(new Error(response.statusCode.toString() + ": " + response.statusMessage));
+            }
             if (!error) {
                 var $ = cheerio.load(html);
 
